@@ -1,0 +1,8 @@
+<!-- Chatbot Container -->
+<div id="chatbot-container">
+    <div id="chatbox">
+        <div id="chat-history"></div>
+    </div>
+    <input type="text" id="user-input" placeholder="Type a message..." onkeydown="if(event.key === 'Enter'){sendMessage();}">
+    <button onclick="sendMessage()">Send</button>
+</div>
